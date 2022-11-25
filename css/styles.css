@@ -1,0 +1,206 @@
+/*header колір #FFFFFF */
+/* section 1 колір #2F303A*/
+/* section 2 та 3 колір #F5F5F5*/
+/* section 4 колір #F5F4FA*/
+/* колір акцент #2196F3*/
+/* колір чорний головний #212121 */
+/*  колір чорний тексту #757575*/
+
+:root {
+  --color-clean-white: #ffffff;
+  --color-black-section: #2f303a;
+  --color-dirty-white: #f5f5f5;
+  --color-gray: #f5f4fa;
+  --color-special: #2196f3;
+  --color-main-dark: #212121;
+  --color-dark: #757575;
+  --cplor-transparent-white: rgba(255, 255, 255, 0.6);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.list {
+  list-style: none;
+}
+
+.header {
+  background-color: var(--color-clean-white);
+}
+
+.logo-special {
+  color: var(--color-special);
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-color {
+  color: var(--color-main-dark);
+  font-family: "Raleway";
+  font-weight: bolder;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.nav-link {
+  color: var(--color-main-dark);
+  text-decoration: none;
+  font-weight: medium;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-special);
+}
+
+.current {
+  color: var(--color-special);
+}
+
+body {
+  background-color: var(--color-dirty-white);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.hero-title {
+  color: var(--color-clean-white);
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero {
+  background-color: var(--color-black-section);
+}
+
+.staff {
+  background-color: var(--color-gray);
+}
+
+.button {
+  background-color: #2196f3;
+  color: var(--color-clean-white);
+  font-weight: medium;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+}
+
+.main-title {
+  color: var(--color-main-dark);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.second-title {
+  color: var(--color-main-dark);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.subtitle {
+  color: var(--color-main-dark);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.top-title {
+  color: var(--color-main-dark);
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.text {
+  color: var(--color-dark);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.second-text {
+  color: var(--color-dark);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.subtext {
+  color: var(--color-dark);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.main-button {
+  background-color: var(--color-gray);
+  color: var(--color-main-dark);
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--color-special);
+  color: var(--color-clean-white);
+}
+
+footer {
+  background-color: var(--color-black-section);
+}
+
+.logo-color-white {
+  color: var(--color-clean-white);
+  font-family: "Raleway";
+  font-weight: bolder;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.link {
+  color: var(--color-clean-white);
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.main-link {
+  color: var(--cplor-transparent-white);
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
